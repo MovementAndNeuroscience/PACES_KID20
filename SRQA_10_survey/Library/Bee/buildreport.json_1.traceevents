@@ -1,0 +1,561 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1764770007203910, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770007205789, "dur": 56344, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770007262358, "dur": 111515, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770007373904, "dur": 2688806, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770010062713, "dur": 72774144, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770082836925, "dur": 10184, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770122372915, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770122373468, "dur": 11116, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770122384590, "dur": 158234, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770122542829, "dur": 2101018, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770124643853, "dur": 1885772, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770126529630, "dur": 3384, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770126534984, "dur": 173, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1764770124243105, "dur": 368142, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1764770124244897, "dur": 96655, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1764770124580195, "dur": 8988, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1764770124589188, "dur": 22033, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1764770124590849, "dur": 17751, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1764770124622157, "dur": 2087, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1764770124620758, "dur": 3536, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770126535423, "dur": 1326, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1764770124811683, "dur":3366, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770124815068, "dur":943, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1764770124816034, "dur":55, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1764770124816093, "dur":892, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1764770124817065, "dur":1716, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770124818781, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471318, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471486, "dur":252, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471738, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471749, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471790, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471795, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471820, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471824, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471848, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471852, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471876, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471880, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471905, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471909, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471934, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471938, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126471968, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126472002, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126472043, "dur":30185, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1764770124818185, "dur":618, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124818814, "dur":15491, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124834338, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1764770124834347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124838190, "dur":17854, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1764770124856049, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1764770124856831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124861905, "dur":7384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1764770124869293, "dur":35548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1764770124904849, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124904865, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1764770124907119, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1764770124907313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124907326, "dur":34439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1764770124941879, "dur":9525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770124951411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124951962, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770124954221, "dur":11845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770124966115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124966291, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770124968236, "dur":9550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770124977795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124977810, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770124980203, "dur":9095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770124989306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770124989323, "dur":20354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125009782, "dur":10511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125020299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125020310, "dur":9788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125030207, "dur":8687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125038903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125038933, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125041244, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125041708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125041723, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125043937, "dur":9138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125053082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125053096, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125056142, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125056638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125056652, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125058998, "dur":860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125059865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125059878, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125063402, "dur":44060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125107653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125107939, "dur":18383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125126483, "dur":944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125127434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125127488, "dur":9474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125137074, "dur":11735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125148816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125148828, "dur":24114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125173046, "dur":8965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125182018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125182032, "dur":7605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125189729, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125190051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125190065, "dur":4255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125194431, "dur":15215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Formats.Asn1.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125209680, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125209696, "dur":4698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Formats.Asn1.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125214548, "dur":5149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125219705, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125219846, "dur":5043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125224999, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125225404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125225418, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125227915, "dur":2824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125230749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125230764, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125234852, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125235454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125235468, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125238037, "dur":43093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125281137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125281152, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125283532, "dur":11863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Microsoft.Extensions.Logging.Abstractions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125295405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125295422, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Microsoft.Extensions.Logging.Abstractions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125298043, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125298409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125298423, "dur":4055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125302575, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125303107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125303122, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125305628, "dur":82933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125388571, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125394510, "dur":4157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764770125398806, "dur":2437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1764770125401251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764770125401266, "dur":16366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1764770125417735, "dur":1053546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124818192, "dur":630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124818822, "dur":15651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124834474, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1764770124834742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124856737, "dur":12658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1764770124869501, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1764770124869675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124869928, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1764770124872016, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1764770124872211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124872225, "dur":5832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1764770124878174, "dur":71645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1764770124949828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124949845, "dur":5489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1764770124955444, "dur":12320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770124967802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124967836, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770124970129, "dur":11857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770124981995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124982010, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770124984486, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770124984888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124984941, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770124988278, "dur":8587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770124996872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770124996885, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770124999771, "dur":9259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125009036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125009047, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125011569, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125011937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125011950, "dur":15816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125027880, "dur":706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125028595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125028609, "dur":7599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125036320, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125036748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125036763, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125039292, "dur":8415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125047714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125047726, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125050052, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125050473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125050487, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125052742, "dur":7999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125060748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125060760, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125063561, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125063887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125063899, "dur":7165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125071179, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125071822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125071852, "dur":2588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125074550, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125074901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125074912, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125077866, "dur":8851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125086724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125086738, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125089043, "dur":11132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125100182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125100194, "dur":4474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125104782, "dur":10919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125115708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125115720, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125119699, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125120216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125120229, "dur":14251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125134600, "dur":270970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125407660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125407678, "dur":9795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764770125417594, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1764770125418280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764770125418338, "dur":3223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1764770125421677, "dur":1049612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770124818280, "dur":572, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770124818852, "dur":15469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770124834338, "dur":116429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1764770124950774, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770124951386, "dur":10171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1764770124961649, "dur":10551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770124972209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770124972223, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770124974212, "dur":11675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770124985894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770124985908, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770124988222, "dur":8690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770124996918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770124996930, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770124999353, "dur":8973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125008332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125008343, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125012013, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125012402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125012414, "dur":17931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125030620, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125031120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125031135, "dur":9460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125040698, "dur":8137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125048844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125048858, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125051757, "dur":7915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125059679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125059693, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125062743, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125063378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125063393, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125065730, "dur":8892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125074628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125074643, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125077766, "dur":8993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125086766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125086779, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125090107, "dur":10647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125100761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125100773, "dur":15628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125116528, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125116947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125116960, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125121048, "dur":1016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125122072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125122087, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125124700, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125125323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125125336, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125128264, "dur":110749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125239021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125239036, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125241626, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/RestSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125242329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125242343, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/RestSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125244729, "dur":31842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125276580, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125276595, "dur":4346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125281046, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125281831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125281843, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125285132, "dur":12032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Microsoft.Extensions.DependencyInjection.Abstractions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125297174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770125297190, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Microsoft.Extensions.DependencyInjection.Abstractions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770125300931, "dur":1164897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/BouncyCastle.Cryptography.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770126465836, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764770126465850, "dur":5249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/BouncyCastle.Cryptography.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764770126471222, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1764770126471224, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764770124818356, "dur":510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764770124818866, "dur":16205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764770124835072, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1764770124835295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764770124868649, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1764770124870732, "dur":36440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1764770124907178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764770124907193, "dur":9981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1764770124917289, "dur":554506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1764770125471803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764770125471817, "dur":23004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1764770125494947, "dur":976377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124818433, "dur":447, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124818880, "dur":16173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124835065, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1764770124835294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124855001, "dur":18844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1764770124873947, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1764770124874161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124875093, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1764770124880226, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1764770124880431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124880549, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1764770124884637, "dur":48019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1764770124932663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124932722, "dur":6173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1764770124939002, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1764770124939248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124939878, "dur":44981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1764770124984959, "dur":10096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770124995068, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770124995086, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770124997451, "dur":10338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125007798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125007812, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125011336, "dur":8814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125020160, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125020177, "dur":10662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125030946, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125031313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125031326, "dur":5433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125036868, "dur":35110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125071985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125071997, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125075183, "dur":10576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125085766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125085780, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125087904, "dur":12622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125100533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125100546, "dur":4529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125105195, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125105886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125105900, "dur":7612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125113626, "dur":9613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125123246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125123259, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125126062, "dur":1189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125127258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125127271, "dur":7847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125135234, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125135909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125135924, "dur":38694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125174739, "dur":6592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125181338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125181352, "dur":5866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125187350, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125187657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125187669, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125189903, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125190433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125190445, "dur":6780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125197359, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125197780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125197794, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125200128, "dur":1267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125201402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125201417, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125204128, "dur":50759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125254896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125254911, "dur":5515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125260535, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125261033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125261047, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125264078, "dur":45112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125309199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125310096, "dur":70045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764770125380352, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1764770125380486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125380674, "dur":5171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1764770125385955, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1764770125386079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125386092, "dur":9607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1764770125395817, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1764770125395940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764770125395954, "dur":25758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1764770125421815, "dur":1049465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770124818537, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770124818898, "dur":16133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770124835041, "dur":72676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1764770124907762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770124907776, "dur":4649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1764770124912527, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1764770124912697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770124912709, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1764770124914821, "dur":81919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770124996749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770124996912, "dur":17801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125014828, "dur":7264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125022101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125022115, "dur":15389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125037701, "dur":19471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125057178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125057191, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125059670, "dur":9129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125068806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125068819, "dur":2578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125071508, "dur":8639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125080154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125080210, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125082894, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125083252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125083267, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125085157, "dur":2823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125087987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125088000, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125092455, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125092873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125092888, "dur":12344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125105365, "dur":9948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125115322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125115340, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125120182, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125120832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125120845, "dur":2818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125123799, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Jobs.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125124227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125124239, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Jobs.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125127705, "dur":250856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125378571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125378588, "dur":22043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764770125400772, "dur":32795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1764770125433576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764770125433592, "dur":9762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1764770125443460, "dur":1027876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770124818657, "dur":258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770124818915, "dur":15790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770124834716, "dur":108942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1764770124943667, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770124943684, "dur":15994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1764770124959798, "dur":48062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125007867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125007879, "dur":23616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125031608, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125032496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125032557, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125036946, "dur":10635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125047590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125047605, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125050936, "dur":8772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125059715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125059727, "dur":3026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125062943, "dur":9540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125072490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125072501, "dur":7185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125079811, "dur":25584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125105444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125105458, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125108126, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125108559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125108573, "dur":9214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125117912, "dur":1022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125118941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125118955, "dur":4022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125123084, "dur":2007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125125097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125125110, "dur":4141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125129369, "dur":266781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125396157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125396171, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764770125401478, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1764770125401642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125401654, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1764770125406187, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1764770125406295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125406308, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1764770125409920, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1764770125410047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125410059, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1764770125413664, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1764770125413774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125413789, "dur":3116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1764770125417073, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1764770125417372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764770125417385, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1764770125420948, "dur":1050372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770124818899, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770124818899, "dur":15827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770124834736, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1764770124834979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770124857440, "dur":54018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1764770124911593, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1764770124911797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770124911810, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1764770124914090, "dur":2055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770124916154, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770124917015, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770124920363, "dur":8443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1764770124928814, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770124928826, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1764770124931843, "dur":131959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20.exe" }}
+,{ "pid":12345, "tid":8, "ts":1764770125063808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125063818, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20.exe" }}
+,{ "pid":12345, "tid":8, "ts":1764770125068205, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125068709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125068725, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125071433, "dur":8984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125080424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125080436, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125083886, "dur":16047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125099942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125099958, "dur":4810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125104876, "dur":10440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125115323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125115340, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125118536, "dur":1363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125119906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125119920, "dur":6246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125126273, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125126622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125126635, "dur":10408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125137155, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125137655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125137670, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125140832, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125141172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125141187, "dur":5496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125146809, "dur":1473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Text.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125148290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125148305, "dur":4317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Text.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125152727, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125153187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125153201, "dur":16037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125169344, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125170075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125170091, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125172603, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125173534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125173547, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125175971, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125176332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125176387, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125179768, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125180142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125180157, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125182459, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125183025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125183037, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125186020, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125186597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125186611, "dur":54618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125241336, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125241675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125241688, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125244007, "dur":468010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Renci.SshNet.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125712026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764770125712042, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/Pc_Standalone_Apps/Indskoling_Survey/PACES_KID20_Data/Managed/Renci.SshNet.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764770125715370, "dur":755948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764770126508570, "dur":6326, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1764770126537055, "dur": 19246, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1764770126534936, "dur": 21499, "ph": "X", "name": "Write chrome-trace events", "args": {} },
